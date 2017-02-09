@@ -1,0 +1,56 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.left {
+    width: 25%;
+    float: left;
+    text-align: left;
+}
+.left .menu li {
+    margin-bottom: 5px;
+}
+.left .menu .catalog .link{
+    display: block;
+    padding: 10px 0;
+    background: rgb(57,169,207);
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+.left .menu .catalog .link:hover {
+    background: rgb(229,187,129);
+}
+.left .menu .catalog .list {
+    background: rgb(255, 241, 240);
+    display: none;
+}
+.left .menu .catalog .list li {
+    margin-left: 10px;
+    padding: 5px;
+}
+.left .menu .catalog .list li a {
+}
+/*----------------------------------------------------------------*/
+.right {
+    width: 70%;
+    margin-left: 28%;
+    min-height: 600px;
+    border: 1px solid #DFDFDF;
+}
+.right .top {
+    height: 30px;
+    background: url(../img/sign.png) no-repeat 3px 0px rgb(57,169,207);
+    text-align: right;
+    line-height: 30px;
+    color: white;
+}
+.right .top  a {
+    text-decoration: none;
+    color: white;
+}
+.right .top  a:hover {
+    text-decoration: underline;
+    color: #ccc;
+}

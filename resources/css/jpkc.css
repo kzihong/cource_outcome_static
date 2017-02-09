@@ -1,0 +1,105 @@
+	body{
+		background-color: #faf3d0;
+		margin:0;
+		padding:0;
+        text-align: center;
+	}
+	img{
+		margin:0;
+		border: 0;
+	}
+	#content{
+		width:950px;
+		margin:0 auto;
+	}
+	.headimg{
+		width:100%;
+		float:left;
+	}
+	#nav{
+		float:left;
+		width:100%;
+		height:40px;
+		margin:0;
+		padding:0;
+		background-color: #099b96;
+	}
+	#nav li{
+		float:left;
+		list-style:none;
+		font-family:"黑体";
+		font-size:16px;
+		padding:11px 15px;
+	}
+	#nav li a{
+		color:white;
+		text-decoration: none;
+	}
+    #nav li a:hover{
+        color:#00ccff;
+    }
+	#main{
+		float:left;
+		background-color: #e0dbc2;
+		width:910px;
+		height:auto;
+		padding:20px 20px 0 20px;
+	}
+	.align{
+		width:100%;
+		height:auto;
+	}
+	.block{
+		float:left;
+		margin-bottom:20px;
+		padding:20px;
+		background-color: white;
+	}
+	.headline{
+		background:url(../img/sign.png) no-repeat;
+		height:26px;
+		margin-top:0;
+		padding-left:30px;
+		font-family: "幼圆";
+		font-weight: bolder;
+		line-height: 26px;
+	}
+	.describe-img{
+		float:left;
+		width:20%;
+	}
+	.describe{
+		float:left;
+		width:77%;
+		height:200px;
+		margin-top:0;
+		font-family: "幼圆";
+		font-size: 15px;
+		text-indent:2em;
+	}
+	.more{
+		float:right;
+		text-decoration: none;
+		color:#41a3d0;
+	}
+	.label{
+	}
+	#login div{
+		margin:25px 0;
+	}
+	.team{
+		width:870px;
+		margin:0;
+		padding:0;
+	}
+	.team li{
+		float:left;
+		list-style: none;
+		width:33%;
+	}
+	.foot{
+		margin:20px auto;
+		text-align: center;
+		font-size: 12px;
+		line-height: 2;
+	}

@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <script type="text/javascript" src="resources/jquery/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="resources/scripts/homepage.js"></script>   
+<link rel="stylesheet" href="resources/css/index.css" media="all" type="text/css"></head>
+
+<body style="zoom: 1;">
+    <div id="cover">
+    </div>
+    <div id="register">
+        <div id="align">
+            <form id="register_form" action="" method="POST">
+                <input type="radio" name="role" value="STUDENT" id="stu" checked="checked">
+                <label for="stu">学生</label>
+                <input type="radio" name="role" value="TEACHER" id="tea">
+                <label for="tea">老师</label>
+                <br>
+                <span>用户名</span><input type="text" name="loginName" id="register_name" class="text">
+                <br>
+                <span>密码</span><input type="password" name="password" id="register_pwd" class="text">
+                <br>
+                <div style="clear:both;"></div>
+                <input type="submit" class="btn" value="注册">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="button" class="btn" value="关闭">
+              </form>
+        </div>
+    </div>
+    <div id="content">
+        <img src="resources/image/head-logo.jpg" class="headimg">
+        <ul id="nav">
+        <li><a href="declare.html">首页</a></li>
+            <li><a href="courser.html">课程负责人</a></li>
+            <li><a href="tutors.html">主讲教师</a></li>
+            <li><a href="group.html">教学队伍</a></li>
+            <li><a href="description.html">课程描述</a></li>
+            <li><a href="outcome.html">教学效果</a></li>
+            <li><a href="comment.html">自我评价</a></li>
+            <li><a href="setup.html">课程建设</a></li>
+            <li><a href="measure.html">政策措施</a></li>
+            <li><a href="resource.html">教学资源</a></li>
+            <li><a href="creative_de.html">创新实践</a></li>
+            <li><a href="">申报书</a></li>
+            <li><a href="homePage.html">资源共享网站</a></li>
+    </ul>
+        <img src="resources/image/theme-img.jpg" class="headimg">
+        <div id="main">
+            <div class="block" title="课程团队" style="height:240px;" catalog_id="40284b8150520d58015052233f750004">
+                <p class="headline">课程团队</p>
+                <div id="team-div">
+                    <ul id="team" class="team" style="left: -242px;">
+                    <li><img src="resources/files/5/0b49016ac3c046e8a391e516007dc11d.jpg"></li>
+                    <li><img src="resources/files/c/3f2d37706ea9452cace6e221d8874242.jpg"></li>
+                    <li><img src="resources/files/7/2956705b425c42dbb89688fcf7469796.jpg"></li>
+                    <li><img src="resources/files/7/14748952c903404b8c1c52f74bb5ad37.jpg"></li>
+                    <li><img src="resources/files/f/96488a90ab6042629ea134fbf05b4eb7.jpg"></li></ul>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+            <div class="block" style="width:608px;" title="课程负责人" catalog_id="40284b815051f45d015051f614650004">
+                <p class="headline">课程负责人</p>
+                <p class="describe" style="margin-bottom:0;margin-left:3%;line-height: 1.2;"><div><img alt="" src="./resources/image_html/51f6415007a043e281f6028a18c9a891.png" style="float:left; height:160px; width:130px">李松庆，博士，教授，硕士生导师。中国物流学会理事、特约研究员、中国注册会计师协会非执业会员。毕业于河南财经学院，获硕士学位，年毕业于中国人民大学，获博士学位。现任广东工业大学管理学院商务管理系系主任。研究方向是物流管理、生产服务业发展。先后在《企业经济》、《工业工程》、《科技管理研究》、《中国流通经济》、《商业经济与管理》、《当代财经》、《经济问题》、《改革与战略》、《中国物流与采购》等核心刊物及国际会议发表论文三十余篇，其中EI、ISTP收录4篇。</div>
+
+</p>
+                <a href="http://localhost:8080/course/catalog_query_user.action?parent_id=09&amp;target=courser" class="more">更多信息&gt;&gt;</a>
+                <div style="clear:both"></div>
+            </div>
+            <div class="block" id="login" style="width:200px;height:257px;margin-left:20px">
+                <p class="headline">登录注册</p>
+                    
+                    
+                    
+                        <form id="login_form" action="http://localhost:8080/course/user_login.action" method="POST">
+                        <div>
+                            <input type="radio" name="role" value="STUDENT" id="stu" checked="checked">
+                            <label for="stu">学生</label>
+                            <input type="radio" name="role" value="TEACHER" id="tea">
+                            <label for="tea">老师</label>
+                            <input type="radio" name="role" value="ADMIN" id="tea">
+                            <label for="tea">管理</label>
+                        </div>
+                        <!--表单的信息还未填写-->
+                            <div>
+                                <span>用户名</span><input type="text" size="12" name="loginName">
+                            </div>
+                            <div>
+                                <span>密码</span><input type="password" size="12" name="password">
+                            </div>
+                            <div style="text-align:center">
+                                <input type="submit" value="登录">
+                                &nbsp;
+                                <input id="registerbBtn" type="button" value="注册">
+                            </div>
+                        </form>
+                    
+                    
+                <div style="clear:both"></div>
+            </div>
+            <div class="block" title="课程简介" catalog_id="40284b8150520d580150522261c30002">
+                <p class="headline">课程简介</p>
+                <p class="describe" style="margin-bottom:0;margin-right:3%;line-height: 1.5;"><div><img alt="" src="./resources/image_html/6084a802ab6e42cc9573a44bbfc9669f.jpg" style="float:right; height:176px; width:135px">《物流学》（Logistics）是我校物流管理专业的专业核心基础课程，也是工商管理、管理科学、市场营销、国际经济与贸易等本科专业和物流工程、管理科学与工程硕士专业的必修课程，同时还是面向全校各本科专业开设的人文社科类公共选修课程。因此，物流学是我校专业和班级覆盖面比较广的课程之一。经过多年的专业和学科建设，本课程形成了专业、年龄、职称和学历结构合理的教师队伍，积累了丰富的教学和科研经验。课程建设依托我校工科背景和学科优势，以培养适应广东省社会经济发展需要的人才为目标，积极探索教学改革之路，系统地实施教学质量工程，取得了显著的成效。</div>
+
+</p>
+                <a href="http://localhost:8080/course/catalog_query_user.action?parent_id=02&amp;target=information" class="more">更多信息&gt;&gt;</a>
+                <div style="clear:both"></div>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <p class="foot">CopyRight 2009 School of Management,GDUT. 广东工业大学 管理学院<br>
+<a href="javascript:;" style="color:red">联系我们</a> | 广东工业大学 电话：86-020-87083017 E-mail: glxy@gdut.edu.cn<br>
+地址：中国 广州 天河区 迎龙路 161号 邮编：510520</p>
+
+
+</body>
+<script>
+timer=setInterval(function(){
+            oUlTeam.style.left=parseInt(getStyle(oUlTeam,"left"))-1+"px";
+            if(parseInt(oUlTeam.style.left)==-290){
+                oUlTeam.appendChild(oUlTeam.children[0]);
+                oUlTeam.style.left=0;
+            }
+        },25);
+    var oRegister=document.getElementById("register");
+    var oUlTeam=document.getElementById('team');
+    oUlTeam.onmouseover=function(){
+        clearInterval(timer);
+    };
+
+    oUlTeam.onmouseout=function(){
+        timer=setInterval(function(){
+            oUlTeam.style.left=parseInt(getStyle(oUlTeam,"left"))-1+"px";
+            if(parseInt(oUlTeam.style.left)==-290){
+                oUlTeam.appendChild(oUlTeam.children[0]);
+                oUlTeam.style.left=0;
+            }
+        },25);
+    }
+</script>
+</html>
